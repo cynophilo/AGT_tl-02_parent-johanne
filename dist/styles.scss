@@ -1,0 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+
+.container {
+    display: grid | inline-grid;
+    grid-template-columns: 1fr 1fr;
+}

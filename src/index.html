@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TL-02 Johanne Parent</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="bg-secondary d-flex justify-content-between">
+        <button href="#" class="text-uppercase"><i class="bi bi-arrow-left bs-secondary-bg"></i>zone de jeu</button>
+        <p>
+          <i class="bi bi-chevron-left"></i>
+          Cadeau avec tout achat de 100$ et plus
+          <a href="#">Visiter la boutique</a>
+          <i class="bi bi-chevron-right"></i>
+        </p>
+        <p class="text-white">
+          <i class="bi bi-person-circle"></i>Compte |
+          <i class="bi bi-stars"></i>VIP
+        </p>
+      </div>
+      <div class="bg-primary d-flex justify-content-between">
+        <img src="./img/logo.jpg" class="logo" alt="logo" width="100px" />
+        <nav class="nav">
+          <button class="btn btn-primary-color text-uppercase text-white" href="#">magasiner</button>
+          <button class="btn btn-primary-color text-uppercase text-white" href="#">découvrir</button>
+          <button class="btn btn-primary-color text-uppercase text-white" href="#">aide</button>
+        </nav>
+        <p class="text-white">
+          <i class="bi bi-search"></i>
+          <i class="bi bi-heart"></i>
+          <button data-bs-toggle="modal" data-bs-target="#cart" class="btn btn-primary-color">
+            <i class="text-white bi bi-bag"></i>
+          </button>
+        </p>
+        >
+      </div>
+    </header>
+    <main>
+      <div class="banner1">
+        <img
+          src="./img/banner.jpg"
+          class="headbanner"
+          alt="bannière du site Web"
+        />
+        <h1>Spécialiste des jouets pour chien</h1>
+        <p>Rabais intéressants</p>
+        <button href="#">
+          En savoir plus<i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+      <div class="d-flex justify-content-center">
+        <figure class="jouets">
+          <img
+            src="./img/250raton.jpg"
+            class="imgsmall"
+            atl="jouet raton laveur"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Nouveautés</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/280jeu.jpg"
+            class="imgsmall"
+            atl="jeu de recherche de nourriture"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Exclusivités</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/300ballon.jpg"
+            class="imgsmall"
+            atl="ballon de football pour chien"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Offres</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/300girafe.jpg"
+            class="imgsmall"
+            atl="jouet girafe"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Spéciaux</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/300os.jpg"
+            class="imgsmall"
+            atl="jouet os à mâcher"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Os</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/300plush.jpg"
+            class="imgsmall"
+            atl="jouets en peluche pour chien"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Peluches</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/400.jpg"
+            class="imgsmall"
+            atl="jouets couineur en forme d'animaux"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Couineurs</a></figcaption>
+        </figure>
+        <figure class="jouets">
+          <img
+            src="./img/400chien.jpg"
+            class="imgsmall"
+            atl="jouet chien en corde"
+            width="60px"
+          />
+          <figcaption class="fs-6"><a href="#">Corde</a></figcaption>
+        </figure>
+      </div>
+      <h2>Recommandés pour toi</h2>
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem" data-price="30.00" data-title="Jouet distributeur de nourriture">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/400jeu.jpg"
+            class="card-img-top"
+            alt="jouet distributeur de nourriture"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jouet distributeur de nourriture</h5>
+            <p class="price card-text">30.00 CAD</p>
+            <a href="#" class="btn btn-lg btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div
+            class="card"
+            style="width: 18rem"
+            data-price="15.00"
+            data-title="Jouet os à gruger">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/400os.jpg"
+            class="card-img-top"
+            alt="jouet os à gruger"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jouet os à gruger</h5>
+            <p class="price card-text">15.00 CAD</p>
+            <a href="#" class="btn btn-lg btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem" data-price="30.00" data-title="Ensemble de jouets en corde">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/450set3.jpeg"
+            class="card-img-top"
+            alt="ensemble de jouets en corde"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ensemble de jouets en corde</h5>
+            <p class="price card-text">30.00 CAD</p>
+            <a href="#" class="btn btn-lg btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem" data-price="30.00" data-title="Ensemble de jouets de dentition pour chiot">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/460set.jpg"
+            class="card-img-top"
+            alt="ensemble de jouets de dentition pour chiots"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Ensemble de jouets de dentition pour chiot
+            </h5>
+            <p class="price card-text">30.00 CAD</p>
+            <a href="#" class="btn btn-lg btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <i class="bi bi-chevron-right"></i>
+      </div>
+      <h2>Thèmes tendance</h2>
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/460squickkit.jpg"
+            class="card-img-top"
+            alt="cochon couineur"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cochon couineur</h5>
+            <p class="card-text">
+              Les chiens adorent jouer avec ce cochon couineur. Choix de
+              couleurs.
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/470croco.jpg"
+            class="card-img-top"
+            alt="crocodile musical en peluche"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Crocodile musical en peluche</h5>
+            <p class="card-text">
+              Ce crocodile joue de la musique lorsque le chien le mâchouille
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/500ane.jpg"
+            class="card-img-top"
+            alt="âne en peluche"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Âne amusant en peluche</h5>
+            <p class="card-text">
+              Âne amusant en peluche et sans danger pour le chien
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/500canard.jpeg"
+            class="card-img-top"
+            alt="canard couineur"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Canard couineur</h5>
+            <p class="card-text">
+              Canard couineur et coloré fabriqué en silicone durable
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <h2>Nos meilleurs vendeurs</h2>
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/460set2.jpg"
+            class="card-img-top"
+            alt="jouets en corde"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jouets en corde</h5>
+            <p class="card-text">Ensemble de jouets en corde</p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/500corde.jpg"
+            class="card-img-top"
+            alt="jouet en corde"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jouet en corde</h5>
+            <p class="card-text">
+              Ce traditionnel jouet corde à noeuds reste l'un de nos meilleurs
+              vendeurs
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/500jeu.jpg"
+            class="card-img-top"
+            alt="jeu distributeur de friandises"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jeu distributeur de friandises</h5>
+            <p class="card-text">
+              Plusieurs modèles de jeu distributeur sont disponibles
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem">
+          <img
+            src="./img/500jeu2.jpg"
+            class="card-img-top"
+            alt="balle distributrice de friandises"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Balle distributrice</h5>
+            <p class="card-text">
+              Plusieurs modèles de balle distributrice de friandises sont
+              disponibles
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <h2>Précommande ces ensembles à l'instant!</h2>
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 24rem">
+          <div class="card-body">
+            <h5 class="card-title">Ensemble de jouets en peluche et corde</h5>
+            <p class="card-text">
+              Cet ensemble de jouets en peluche et corde est parfait pour les
+              chiots ou petits chiens
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+            <img
+              src="./img/500kit.jpg"
+              class="card-img-top"
+              alt="ensemble de jouets en peluche te corde"
+            />
+          </div>
+        </div>
+        <div class="card" style="width: 24rem">
+          <div class="card-body">
+            <h5 class="card-title">Ensemble de peluches</h5>
+            <p class="card-text">
+              Cet ensemble de 3 peluches est parfait pour tous les chiens
+            </p>
+            <button href="#" class="btn btn-default"
+              >Visiter la boutique <i class="bi bi-chevron-right"></i
+            ></button>
+            <img
+              src="./img/500kitplush.jpg"
+              class="card-img-top"
+              alt="ensemble de peluches"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="banner2">
+        <img
+          src="./img/banner2.jpg"
+          class="banner"
+          alt="bannière publicitaire"
+        />
+        <p>Cadeau offert avec tout achat de 100$ et plus</p>
+        <button>Visiter la boutique <i class="bi bi-chevron-right"></i
+          ></button>
+      </div>
+
+      <h2>En vedette</h2>
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 12rem" data-price="20.00" data-title="Jouet Kong">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img src="./img/500kong.jpg" class="card-img-top" alt="jouet Kong" />
+          <div class="card-body">
+            <h5 class="card-title">Jouet Kong</h5>
+            <p class="price card-text">20.00 CAD</p>
+            <a href="#" class="btn btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem" data-price="20.00" data-title="Balle Kong">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/500kongballe.jpg"
+            class="card-img-top"
+            alt="balle Kong"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Balle Kong</h5>
+            <p class="price card-text">20.00 CAD</p>
+            <a href="#" class="btn btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem" data-price="20.00" data-title="Loup en peluche et corde">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/500loup.jpg"
+            class="card-img-top"
+            alt="jouet loup en peluche et corde"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Loup en peluche et corde</h5>
+            <p class="price card-text">20.00 CAD</p>
+            <a href="#" class="btn btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem" data-price="20.00" data-title="Ensemble de jouets en peluche fast food">
+          <p><i class="bi bi-heart"></i>Ajouter à ta liste</p>
+          <img
+            src="./img/500mcdo.jpg"
+            class="card-img-top"
+            alt="ensemble de jouets en peluche fast food"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ensemble de jouets en peluche fast food</h5>
+            <p class="price card-text">20.00 CAD</p>
+            <a href="#" class="btn btn-warning">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Pour le cours AGT, la grid doit être faites en css et non avec Bootstrap. 
+      Pour remplir cette demande, le footer est une grid css -->
+    <footer class="bg-primary $link-color">
+      <div class="container">
+        <div>
+          <img src="./img/logo.jpg" class="logo" alt="logo" width="100px" />
+          <p class="text-white"><i class="bi bi-geo text-white"></i> Canada</p>
+          <nav>
+            <ul>
+              <li><a href="#">Cartes-cadeaux</a></li>
+              <li><a href="#">Catalogue</a></li>
+              <li><a href="#">Trouver un magasin</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-uppercase text-white">À notre sujet</p>
+          <nav>
+            <ul>
+              <li><a href="#">Au sujet de la marque</a></li>
+              <li><a href="#">Actualités</a></li>
+              <li><a href="#">Durabilité</a></li>
+              <li>
+                <a href="#">Énoncé relatif à la chaîne d'approvisionnement</a>
+              </li>
+              <li><a href="#">Certification</a></li>
+              <li><a href="#">Emplois</a></li>
+              <li><a href="#">Conformité</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-uppercase text-white">Assistance</p>
+          <nav>
+            <ul>
+              <li><a href="#">Nous contacter</a></li>
+              <li><a href="#">Instruction d'assemblage</a></li>
+              <li><a href="#">Pièces de rechange</a></li>
+              <li><a href="#">Expédition et retours</a></li>
+              <li><a href="#">Modes de paiement</a></li>
+              <li><a href="#">Conditions générales</a></li>
+              <li><a href="#">Rappels de produits</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-uppercase text-white">Parcs d'attraction</p>
+          <nav>
+            <ul>
+              <li><a href="#">PIJAC Canada</a></li>
+              <li><a href="#">Kong International</a></li>
+              <li><a href="#">Centres de découverte</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-uppercase text-white">Davantage à notre sujet</p>
+          <nav>
+            <ul>
+              <li><a href="#">Administration</a></li>
+              <li><a href="#">Éducation</a></li>
+              <li><a href="#">Idées</a></li>
+              <li><a href="#">Fondation</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="item1">
+        <p class="text-uppercase text-white">S'incrire aux communications de marketing par courriel</p>
+        <form action="/subscribe" method="post">
+          <input type="email" name="email" placeholder="Votre courriel"></input>
+          <button class="btn btn-warning" type="submit"><i class="bi bi-chevron-right"></i
+            ></button>
+        </form>
+        </div>
+
+        <div class="item2">
+          <p class="text-uppercase text-white">Nous suivre</p>
+          <i class="bi bi-facebook text-white"></i>
+          <i class="bi bi-twitter text-white"></i>
+          <i class="bi bi-instagram text-white"></i>
+          <i class="bi bi-youtube text-white"></i>
+        </div>
+
+        <div class="item3">
+          <ul class="smtext" id="fmenu">
+            <li><a href="#">Politique de confidentialité</li>
+            <li><a href="#">Témoins</li>
+            <li><a href="#">Avis juridique</li>
+            <li><a href="#">Conditions d'utilisation</li>
+            <li><a href="#">Accessibilité</li>
+            <li><a href="#">Paramètres des témoins</li>
+          </ul>
+        </div>
+
+        <div class="item4">
+          <p class="smtext">Le respect du droits d'auteur est requis en ce qui concerne le contenu de ce site Web.</p>
+        </div>
+      </div>
+
+    </footer>
+    <div id="cart" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p>Liste de vos achats</p>
+            <ul></ul>
+            <p class="total">0.00 CAD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
